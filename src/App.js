@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Divider from './components/Divider';
 
 function App() {
 
@@ -10,26 +11,24 @@ function App() {
     fetch('./assets/cv-en.json').then(response => response.json().then(cv => setCV(cv)));
   }, []);
 
-  console.log(cv);
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const content = () => (
+    <div className="Body">
+      <div className="Content">
+        <header className="Header">
+          <img className="Header-photo" src="./assets/profile.jpg" />
+          <span className="Header-name">{cv.name}</span>
+          <span className="Header-title">{cv.title}</span>
+        </header>
+        <Divider />
+      </div>
     </div>
   );
+
+  const loading = () => (
+    <span>Loading!</span>
+  );
+
+  return ((cv && content()) || loading());
 }
 
 export default App;

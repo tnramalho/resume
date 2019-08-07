@@ -1,33 +1,65 @@
-.App {
-  text-align: center;
+.theme {
+  color: #DDD1C7;
+  color: #C2CFB2;
+  color: #8DB580;
+  color: #7E8987;
+  color: #4B4A67;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
+.Body {
+  background-color: #4B4A67;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: Consolas, monaco, monospace;
 }
 
-.App-link {
-  color: #61dafb;
+.Content {
+  width: 80vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Header {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Header > .Header-photo {
+  width: auto;
+  height: 180px;
+  border-radius: 180px;
+  border: 5px solid #8DB580;
+}
+
+@media print {
+  
+}
+
+.Header > .Header-name {
+  color: #C9BEB5;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.Header > .Header-title {
+  color: #C9BEB5;
+  font-size: 22px;
+}
+
+@media print {
+
+  .Header > .Header-photo {
+    height: 120px;
+    border-radius: 120px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .Body {
+    background-color: #4B4A67 !important;
+    -webkit-print-color-adjust: exact; 
   }
+
 }
