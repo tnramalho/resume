@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   background-color: #DDD1C7;
-  height: 0.5px;
+  height: 1px;
   width: 100%;
 `;
 
