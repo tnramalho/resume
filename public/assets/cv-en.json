@@ -1,0 +1,115 @@
+{
+    "name": "Filipe Macêdo",
+    "title": "Sênior Developer",
+    "location": "João Pessoa Area, Brazil",
+    "about": "Something like 10 years of programming, web and mobile apps development, leading, testing, database development, analyses, problem resolution and team collaboration. Nowadays the main skills are focused and split between C# and JS/typescript. Have experienced to build client applications with AngularJS, Angular 6, React and React Native. Also have participated on building and maintenance of backends applications using Node.js with express and .NET Core with Xamarin and JS client apps consuming it.",
+    "contacts": [
+        { "type": "Phone", "value": "+55 83 98152-5152" },
+        { "type": "Email", "value": "fmacedoo@gmail.com" }
+    ],
+    "social": [
+        { "type": "Whatsapp", "value": "+55 83 98152-5152" },
+        { "type": "LinkedIn", "value": "/in/fmacedoo/" },
+        { "type": "Github", "value": "/fmacedoo/" }
+    ],
+    "Education": [
+        { 
+            "school": "Faculdade iDez", 
+            "degree": "Computer Software Engineering", 
+            "period": { "start": "Early 2007", "end": "Late 2009" },
+            "description": "Accomplished disciplines as Software Engineering, Software Development with Delphi and Java, Operating Systems Architectures, Embedded Systems, Systems for WEB and Programming Logic and Algorithms."
+        }
+    ],
+    "Experiences": [
+        { 
+            "title": "Frontend Developer/Co-Founder",
+            "company": "101 Soluções em Tecnologia",
+            "location": "João Pessoa Area, Brazil",
+            "current": true,
+            "period": { "start": "October 2018" },
+            "image": "https://media-exp2.licdn.com/media-proxy/ext?w=1024&h=512&f=n&hash=QoT3JsjbjUIRNUgKyCwzKHE1aFY%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6jnhodx1Ey9KGTqAGj6E5DQJHUA3L0CHH05IbfPWi8ecTafOaho0AWLnlVjQA7euq1ETTgEo6_LYi9etlx2sPsJZj5agYUbhl4j3lK6w",
+            "descriptions": [
+                "Working on projects  using  Node.JS,  React  and  React  Native.  Full  stack but focused pretty much at front-end, taking care about UI/UX.",
+                "Leading a small team of 3 developers using Trello.",
+                "Dealing with clients and meeting with them regard the main product, a public app for the citizens to help them suggest improvements to their cities."
+            ]
+        },
+        { 
+            "title": "Senior Software Engineering",
+            "company": "Concepta, Inc",
+            "location": "Orlando, Florida Area / Remote",
+            "current": false,
+            "period": { "start": "March 2015", "end": "October 2018" },
+            "image": "https://conceptainc.com/wp-content/uploads/2019/05/Profile-Picture.png",
+            "descriptions": [
+                "Worked with many projects using many technologies for many clients.",
+                "Met with managers and clients daily.",
+                "Suggested and implemented good practices on different projects.",
+                "Volunteered presented workshops about new technologies to the company colleagues.",
+                "Worked on Maintenance of .NET Standard backend REST applications.",
+                "Created and Maintained .NET Core REST applications.",
+                "Created and Maintained corporate iPad client app using Xamarin and Xcode (Swift for few stuffs).",
+                "Created and Maintained responsive web app using React with MobX.",
+                "Created and Maintained instant messages web app using React with Mobx and Firebase.",
+                "Also met with the client remotely, suggested best approaches to UI, UX and architecture and dealt with many particular business logic.",
+                "Not less important have worked with technologies like Backbone.js, AngularJS, Angular6, Node.js with express and Mongodb."
+            ]
+        },
+        { 
+            "title": "Entrepreneur",
+            "company": "Freelancer",
+            "location": "João Pessoa Area, Brazil",
+            "current": false,
+            "period": { "start": "January 2010", "end": "March 2015" },
+            "image": "https://miro.medium.com/max/1838/1*ATVm5uCixG7ntr40XlQbrg.jpeg",
+            "descriptions": [
+                "As an entrepreneur, developed and launched solutions to some business companies at the hometown. Developed management systems and also apps for many local clients. Also managed the business itself solving problems in different areas, such as tax procedures, people management, and cost reduction at the organization.",
+                "That was the period where I had more freedom to be creative, to learn new technologies and to deal with the entrepreneur difficulties."
+            ]
+        },
+        { 
+            "title": "Junior Software Developer",
+            "company": "UNIMED Norte/Nordeste",
+            "location": "João Pessoa Area, Brazil",
+            "current": false,
+            "period": { "start": "January 2008", "end": "November 2010" },
+            "image": "https://unimednne.com.br/site/wp-content/themes/unimed-2018/img/xlogo-unimednne.png.pagespeed.ic.9aQ0Btk165.webp",
+            "descriptions": [
+                ".NET 3.5 Framework developer creating and maintaining web projects using WebForms, Javascript and Oracle Database.",
+                "Followed and learned about predetermined business logic created by the Brazilian health agency about the rules to send and receives documents into health institutions.",
+                "Worked and improved old projects created in Delphi and C# creating new versions, designing, re-coding, and fixing user interface issues"
+            ]
+        },
+        { 
+            "title": "Software Developer Trainee",
+            "company": "Tinus Informática",
+            "location": "João Pessoa Area, Brazil",
+            "current": false,
+            "period": { "start": "January 2007", "end": "January 2008" },
+            "image": "https://www.tinus.com.br/imagens/caixa_siat.jpg",
+            "descriptions": [
+                "Enjoyed the challenge to learn and work with Intersystems Caché technology.",
+                "Elaborated object oriented databases using Intersystems Caché.",
+                "Worked with maintenance of backend application using Intersystems Caché.",
+                "Worked with web applications using Javascript, HTML and CSS consuming Intersystems Caché SOAP services.",
+                "Also worked with Java to created repors using Jasper.",
+                "Uh, almost forgetting! Worked with Printer Command Language, a low level technology used to communicate direct to the printer. Volunteered to work with Java and Jasper to replace the old reports made in PCL, that way guaranteeing good maintenance for the future developers."
+            ]
+        }
+    ],
+    "skills": [
+        { "name": "Javascript", "rate": 5 },
+        { "name": "Node.Js/Express", "rate": 4 },
+        { "name": "React", "rate": 4 },
+        { "name": "React Native", "rate": 4 },
+        { "name": "Angular 6/7", "rate": 3 },
+        { "name": "Typescript", "rate": 4 },
+        { "name": "C#", "rate": 5 },
+        { "name": ".NET 4.5/Core", "rate": 4 },
+        { "name": "Xamarin/Forms", "rate": 3 },
+        { "name": "Frontend", "rate": 4 },
+        { "name": "Backend", "rate": 4 },
+        { "name": "iOS/Enviroment", "rate": 4 },
+        { "name": "Android/Enviroment", "rate": 2 }
+    ]
+}
