@@ -1,9 +1,10 @@
 import React from 'react';
 
-import { Container, Header, Content, Title, Description } from './styles';
+import { Container, Header, Content, SectionName, Name } from './styles';
 
 export default function Section({ 
-    title, 
+    name, 
+    headerContentRender,
     children, 
     align = 'flex-start' || 'center' || 'flex-end',
     justify = 'flex-start' || 'center' || 'flex-end',
@@ -12,11 +13,15 @@ export default function Section({
   return (
     <Container>
         {
-            (title) && (
+            (name && (
                 <Header>
-                    <Title>{title}</Title>
+                    <Name>{name}</Name>
                 </Header>
-            )
+            )) || (headerContentRender && (
+                <Header>
+                    {headerContentRender()}
+                </Header>
+            ))
         }
         <Content justify={justify} align={align} direction={direction}>
             { children }

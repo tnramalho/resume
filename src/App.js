@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Divider from './components/Divider';
 import Section from './components/Section';
-import { Contact, ContactType, ContactValue, Description } from './components/Section/styles';
+import { Contact, Bio, Description, Title, Subtitle } from './components/Section/styles';
 
 function App() {
 
@@ -40,9 +39,34 @@ function App() {
         </Section>
         <Divider />
         <Section>
-          <Description>{cv.about}</Description>
+          <Bio>{cv.about}</Bio>
         </Section>
         <Divider />
+        <Section name="Experiences" />
+        {
+          cv.experiences.map(experience => (
+            <Section direction="column" headerContentRender={() => (
+              <>
+                <Title>{experience.company}</Title>
+                {
+                  ((experience.period.end) && (
+                    <Subtitle>{[experience.period.start, experience.period.end].join(' to ')}</Subtitle>
+                  )) || (
+                    <Subtitle>Current position</Subtitle>
+                  )
+                }
+              </>
+            )}>
+              <ul>
+              {
+                experience.descriptions.map(o => (
+                  <Description>{o}</Description>
+                ))
+              }
+              </ul>
+            </Section>
+          ))
+        }
       </div>
     </div>
   );

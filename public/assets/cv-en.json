@@ -12,7 +12,7 @@
         { "type": "LinkedIn", "value": "/in/fmacedoo/" },
         { "type": "Github", "value": "/fmacedoo/" }
     ],
-    "Education": [
+    "education": [
         { 
             "school": "Faculdade iDez", 
             "degree": "Computer Software Engineering", 
@@ -20,7 +20,7 @@
             "description": "Accomplished disciplines as Software Engineering, Software Development with Delphi and Java, Operating Systems Architectures, Embedded Systems, Systems for WEB and Programming Logic and Algorithms."
         }
     ],
-    "Experiences": [
+    "experiences": [
         { 
             "title": "Frontend Developer/Co-Founder",
             "company": "101 Soluções em Tecnologia",
