@@ -18,7 +18,7 @@ function App() {
     <div className="Body">
       <div className="Content">
         <header className="Header">
-          <img className="Header-photo" src="./assets/profile.jpg" />
+          <img className="Header-photo" src="./assets/profile.jpg" alt="Filipe's" />
           <span className="Header-name">{cv.name}</span>
           <span className="Header-title">{cv.title}</span>
           <span className="Header-title">{cv.location}</span>
