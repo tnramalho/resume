@@ -37,10 +37,6 @@
   border: 5px solid #8DB580;
 }
 
-@media print {
-  
-}
-
 .Header > .Header-name {
   color: #C9BEB5;
   font-size: 32px;
@@ -59,9 +55,19 @@
     border-radius: 120px;
   }
 
+  .Header > .Header-name {
+    color: #C9BEB5;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  
+  .Header > .Header-title {
+    color: #C9BEB5;
+    font-size: 12px;
+  }
+
   .Body {
-    background-color: #4B4A67 !important;
-    -webkit-print-color-adjust: exact; 
+    font-size: 11px;
   }
 
 }

@@ -15,6 +15,7 @@ const Name = styled.span`
   color: #DDD1C7;
   font-size: 14px;
   text-align: justify;
+  margin-right: 8px;
 `;
 
 const Icons = styled.div`

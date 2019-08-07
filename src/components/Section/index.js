@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Header, Content, SectionName, Name } from './styles';
+import { Container, Header, Content, Name } from './styles';
 
 export default function Section({ 
     name, 
@@ -23,7 +23,7 @@ export default function Section({
                 </Header>
             ))
         }
-        <Content justify={justify} align={align} direction={direction}>
+        <Content justify={justify} align={align} direction={direction} noHeader={!name && !headerContentRender}>
             { children }
         </Content>
     </Container>

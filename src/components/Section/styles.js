@@ -5,11 +5,15 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   margin: 20px 0 20px 0;
+  @media print {
+    page-break-inside: avoid;
+  }
 `;
 
 export const Header = styled.div`
-  width: 250px;
   display: flex;
+  flex-grow: 0.2;
+  flex-basis: 0;
   align-items: justify;
   flex-direction: column;
   margin-right: 20px;
@@ -17,7 +21,7 @@ export const Header = styled.div`
 
 export const Content = styled.div`
   display: flex;
-  flex-grow: 1;
+  flex-grow: ${props => props.noHeader ? '1' : '0.8'};
   flex-basis: 0;
   flex-direction: ${props => props.direction || 'row'};
   justify-content: ${props => props.justify || 'flex-start'};
@@ -39,9 +43,12 @@ export const Subtitle = styled.span`
     color: #C9BEB5;
     font-size: 14px;
     text-align: justify;
+    @media print {
+      font-size: 7px;
+    }
 `;
 
-export const Bio = styled.span`
+export const Bio = styled.p`
     color: #DDD1C7;
     text-align: justify;
 `;
@@ -50,6 +57,9 @@ export const Description = styled.li`
     color: #DDD1C7;
     font-size: 14px;
     text-align: justify;
+    @media print {
+      font-size: 9px;
+    }
 `;
 
 export const ContactType = styled.span`
