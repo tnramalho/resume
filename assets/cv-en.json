@@ -2,98 +2,97 @@
     "name": "Thiago Ramalho",
     "title": "Sênior Developer",
     "location": "João Pessoa Area, Brazil",
-    "about": "Something like 10 years of programming, web and mobile apps development, leading, testing, database development, analyses, problem resolution and team collaboration. Nowadays the main skills are focused and split between C# and JS/typescript. Have experienced to build client applications with AngularJS, Angular 6, React and React Native. Also have participated on building and maintenance of backends applications using Node.js with express and .NET Core with Xamarin and JS client apps consuming it.",
+    "about": "Experienced Full Stack Engineer with a demonstrated history of working with Software development. Skilled in Databases, Web/ Mobile Applications. Strong engineering professional with a bachelor focused in Information of Systems from IESP IESP - Instituto de Educação Superior da Paraíba. A Great team work developer always concerned about, good practices in planning, creative solution, clean code, good communication, quick learn and quick adaptability to changes. Professional with more than 10 years of experience in software development, having worked with different language as Java (2 Years), .Net (10 Years), Node.js (6 years) and many different mobile and frontend frameworks, always using his fluency in English for contacting international suppliers. Interest in Agile methodologies and practices as XP, Scrum and TDD. Try to continually improve, both in professional and personal levels, and to collaborate creatively in the projects and with the people around.",
     "contacts": [
-        { "type": "Phone", "value": "+55 83 98152-5152" },
-        { "type": "Email", "value": "fmacedoo@gmail.com" }
+        { "type": "Phone", "value": "+55 83 99665-3854" },
+        { "type": "Email", "value": "thiago.nramalho@gmail.com" }
     ],
     "social": [
-        { "type": "Whatsapp", "value": "+55 83 98152-5152" },
-        { "type": "LinkedIn", "value": "/in/fmacedoo/" },
-        { "type": "Github", "value": "/fmacedoo/" }
+        { "type": "Whatsapp", "value": "+55 83 99665-3854" },
+        { "type": "LinkedIn", "value": "/in/tnramalho/" },
+        { "type": "Github", "value": "/tnramalho/" }
     ],
     "education": [
         { 
-            "school": "Faculdade iDez", 
-            "degree": "Computer Software Engineering", 
-            "period": { "start": "Early 2007", "end": "Late 2009" },
-            "description": "Accomplished disciplines as Software Engineering, Software Development with Delphi and Java, Operating Systems Architectures, Embedded Systems, Systems for WEB and Programming Logic and Algorithms."
+            "school": "IESP - Instituto de Educação Superior da Paraíba", 
+            "degree": "Information of Systems", 
+            "period": { "start": "Early 2006", "end": "Late 2010" },
+            "description": "Accomplished disciplines as Software Engineering, Software Development with C++ and Java, Operating Systems Architectures, Embedded Systems, Systems for WEB and Programming Logic and Algorithms."
         }
     ],
     "experiences": [
+        
         { 
-            "title": "Frontend Developer/Co-Founder",
-            "company": "101 Soluções em Tecnologia",
-            "location": "João Pessoa Area, Brazil",
+            "title": "Senior Software Engineering",
+            "company": "Concepta, Inc",
+            "location": "Orlando, Florida Area / Remote ",
             "current": true,
-            "period": { "start": "October 2018" },
-            "image": "https://media-exp2.licdn.com/media-proxy/ext?w=1024&h=512&f=n&hash=QoT3JsjbjUIRNUgKyCwzKHE1aFY%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6jnhodx1Ey9KGTqAGj6E5DQJHUA3L0CHH05IbfPWi8ecTafOaho0AWLnlVjQA7euq1ETTgEo6_LYi9etlx2sPsJZj5agYUbhl4j3lK6w",
+            "period": { "start": "July 2010"},
+            "image": "",
             "descriptions": [
-                "Working on projects  using  Node.JS,  React  and  React  Native.  Full  stack but focused pretty much at front-end, taking care about UI/UX.",
-                "Leading a small team of 3 developers using Trello.",
-                "Dealing with clients and meeting with them regard the main product, a public app for the citizens to help them suggest improvements to their cities."
+                "Over the years Working as FullStack Web Developer using agil methodologies.",
+                "Met with managers and clients daily.",
+                "Worked as a leader and office manager of a team in a remote office located at Brazil",
+                "Suggested and implemented good practices on different projects.",
+                "Worked on Maintenance of .NET Standard backend REST applications.",
+                "Created and Maintained .NET Core REST applications.",
+                "Implemented dozens of projects in many different areas for Web, IOS, Android and Desktop: ",
+                "Backend: - .Net, - .Net MVC, - .Net Web APi, - Rest APIs - ASP.Net Web Forms, - WebServices, - Node.js, - Deployd.js, - Express.js - nest.js",
+                "Frontend: - Javascript, - JQuery, - Backbone.js, - Angular.js, - React.js, - Vue.js, - Html, - Css - bootstrap, - sass",
+                "Mobile: - Titanium from Appcelerator, - React Native, - Xamarin",
+                "Database: - SQl, - PostgreSQL, - SQLLite, - MySQL, - NoSQL, - MongoDB, - Firebase",
+                "Servers: -Azure, - AWS, - heroku",
+                "Others: - Slack bot, - AWS S3",
+                "Volunteered presented workshops about new technologies to the company colleagues (Language Understanding (LUIS), ChatBot, Slackbot, Snippets)."
             ]
         },
         { 
             "title": "Senior Software Engineering",
-            "company": "Concepta, Inc",
+            "company": "Vacation Innovations",
             "location": "Orlando, Florida Area / Remote",
             "current": false,
-            "period": { "start": "March 2015", "end": "October 2018" },
-            "image": "https://conceptainc.com/wp-content/uploads/2019/05/Profile-Picture.png",
+            "period": { "start": "November 2017", "end": "March 2020"  },
+            "image": "",
             "descriptions": [
-                "Worked with many projects using many technologies for many clients.",
-                "Met with managers and clients daily.",
-                "Suggested and implemented good practices on different projects.",
-                "Volunteered presented workshops about new technologies to the company colleagues.",
-                "Worked on Maintenance of .NET Standard backend REST applications.",
-                "Created and Maintained .NET Core REST applications.",
-                "Created and Maintained corporate iPad client app using Xamarin and Xcode (Swift for few stuffs).",
-                "Created and Maintained responsive web app using React with MobX.",
-                "Created and Maintained instant messages web app using React with Mobx and Firebase.",
-                "Also met with the client remotely, suggested best approaches to UI, UX and architecture and dealt with many particular business logic.",
-                "Not less important have worked with technologies like Backbone.js, AngularJS, Angular6, Node.js with express and Mongodb."
+                "Allocated as a Full Stack Web Engineer to working inside client team",
+                "Worked using technologies like .Net,.Net Core, Jquery, Angular.js, Bootstrap, css, SQL."
             ]
         },
         { 
-            "title": "Entrepreneur",
-            "company": "Freelancer",
+            "title": "Systems Analyst",
+            "company": "Politec",
             "location": "João Pessoa Area, Brazil",
             "current": false,
-            "period": { "start": "January 2010", "end": "March 2015" },
-            "image": "https://miro.medium.com/max/1838/1*ATVm5uCixG7ntr40XlQbrg.jpeg",
+            "period": { "start": "January 2010", "end": "April 2010" },
+            "image": "",
             "descriptions": [
-                "As an entrepreneur, developed and launched solutions to some business companies at the hometown. Developed management systems and also apps for many local clients. Also managed the business itself solving problems in different areas, such as tax procedures, people management, and cost reduction at the organization.",
-                "That was the period where I had more freedom to be creative, to learn new technologies and to deal with the entrepreneur difficulties."
-            ]
-        },
-        { 
-            "title": "Junior Software Developer",
-            "company": "UNIMED Norte/Nordeste",
-            "location": "João Pessoa Area, Brazil",
-            "current": false,
-            "period": { "start": "January 2008", "end": "November 2010" },
-            "image": "https://unimednne.com.br/site/wp-content/themes/unimed-2018/img/xlogo-unimednne.png.pagespeed.ic.9aQ0Btk165.webp",
-            "descriptions": [
-                ".NET 3.5 Framework developer creating and maintaining web projects using WebForms, Javascript and Oracle Database.",
-                "Followed and learned about predetermined business logic created by the Brazilian health agency about the rules to send and receives documents into health institutions.",
-                "Worked and improved old projects created in Delphi and C# creating new versions, designing, re-coding, and fixing user interface issues"
+                "Working as Outsourced to Department of Revenue of the State of Paraíba",
+                "Developing new features for the system ATF - Corporate Tax System and Financial responsible for, by making control of tax revenue the state of Paraíba.",
+                "Worked with Java and JSF"
             ]
         },
         { 
             "title": "Software Developer Trainee",
-            "company": "Tinus Informática",
+            "company": "DATAPREV",
             "location": "João Pessoa Area, Brazil",
             "current": false,
-            "period": { "start": "January 2007", "end": "January 2008" },
-            "image": "https://www.tinus.com.br/imagens/caixa_siat.jpg",
+            "period": { "start": "March 2009", "end": "December 2010" },
+            "image": "",
             "descriptions": [
-                "Enjoyed the challenge to learn and work with Intersystems Caché technology.",
-                "Elaborated object oriented databases using Intersystems Caché.",
-                "Worked with maintenance of backend application using Intersystems Caché.",
-                "Worked with web applications using Javascript, HTML and CSS consuming Intersystems Caché SOAP services.",
-                "Also worked with Java to created repors using Jasper.",
-                "Uh, almost forgetting! Worked with Printer Command Language, a low level technology used to communicate direct to the printer. Volunteered to work with Java and Jasper to replace the old reports made in PCL, that way guaranteeing good maintenance for the future developers."
+                "Ten months working in UDPB - Software Development Unit Collection. ",
+                "Participating in the development of 'Insured Special CNIS' (This is the system that ensures access to pension rights in order automatically to indigenous people throughout Brazil.)",
+                "Worked with Java, JSF and spend some time working on QA"
+            ]
+        },
+        { 
+            "title": "Software Developer Trainee",
+            "company": "Companhia de Processamento de Dados da Paraíba - CODATA",
+            "location": "João Pessoa Area, Brazil",
+            "current": false,
+            "period": { "start": "January 2008", "end": "December 2008" },
+            "image": "",
+            "descriptions": [
+                "Twelve Months developing systems for the Government of Paraiba. Working as an Analyst, Architect and Developer (Java Web) software."
             ]
         }
     ],
@@ -101,15 +100,17 @@
         { "name": "Javascript", "rate": 5 },
         { "name": "Node.Js/Express", "rate": 4 },
         { "name": "React", "rate": 4 },
-        { "name": "React Native", "rate": 4 },
+        { "name": "React Native", "rate": 3 },
         { "name": "Angular 6/7", "rate": 3 },
-        { "name": "Typescript", "rate": 4 },
-        { "name": "C#", "rate": 5 },
-        { "name": ".NET 4.5/Core", "rate": 4 },
-        { "name": "Xamarin/Forms", "rate": 3 },
-        { "name": "Frontend", "rate": 4 },
-        { "name": "Backend", "rate": 4 },
-        { "name": "iOS/Enviroment", "rate": 4 },
-        { "name": "Android/Enviroment", "rate": 2 }
+        { "name": "Typescript", "rate": 3 },
+        { "name": "AppCelerator", "rate": 2 },
+        { "name": ".NET 4.5/Core", "rate": 5 },
+        { "name": "Xamarin/Forms", "rate": 2 },
+        { "name": "Frontend", "rate": 3 },
+        { "name": "Backend", "rate": 5 },
+        { "name": "iOS/Enviroment", "rate": 2 },
+        { "name": "Android/Enviroment", "rate": 2 },
+        { "name": "DevOps", "rate": 2 },
+        { "name": "UX/UI", "rate": 3 }
     ]
 }
