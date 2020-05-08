@@ -26,8 +26,8 @@
             "title": "Senior Software Engineering",
             "company": "Concepta, Inc",
             "location": "Orlando, Florida Area / Remote ",
-            "current": true,
-            "period": { "start": "July 2010"},
+            "current": false,
+            "period": { "start": "July 2010", "end": "today"},
             "image": "",
             "descriptions": [
                 "Over the years Working as FullStack Web Developer using agile methodologies.",
