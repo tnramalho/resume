@@ -103,13 +103,9 @@
         { "name": "React Native", "rate": 3 },
         { "name": "Angular 6/7", "rate": 3 },
         { "name": "Typescript", "rate": 3 },
-        { "name": "AppCelerator", "rate": 2 },
-        { "name": ".NET 4.5/Core", "rate": 5 },
-        { "name": "Xamarin/Forms", "rate": 2 },
-        { "name": "Frontend", "rate": 3 },
         { "name": "Backend", "rate": 5 },
-        { "name": "iOS/Enviroment", "rate": 2 },
-        { "name": "Android/Enviroment", "rate": 2 },
+        { "name": ".NET 4.5/Core", "rate": 5 },
+        { "name": "Frontend", "rate": 4 },
         { "name": "DevOps", "rate": 2 },
         { "name": "UX/UI", "rate": 3 }
     ]
